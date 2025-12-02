@@ -1,0 +1,38 @@
+# 編譯出來的執行檔 / 物件檔
+
+*.out
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+
+# 中介檔
+*.pch
+*.pdb
+*.ilk
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# VS / 其他 IDE
+.vs/
+*.user
+*.suo
+
+# CMake / build 資料夾
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 其他暫存
+*.tmp
+*.bak
+*.swp
+*.csv
+*.bin
